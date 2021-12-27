@@ -1,4 +1,4 @@
-project "ImGui"
+project "imgui"
 	kind "StaticLib"
 	language "C++"
 
@@ -10,12 +10,6 @@ project "ImGui"
 		"*.h",
         "*.cpp"
 	}
-
-	includedirs
-    {
-        "../SFML-2.5.1/include",
-        "../imguiSFML",
-    }
 
 	filter "system:windows"
 		systemversion "latest"
